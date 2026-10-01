@@ -1,0 +1,24 @@
+{
+  "name": "sakhi-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sakhi AI - a voice-first digital navigator that helps first-time, rural women internet users access verified government services in their own language.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.11",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}
